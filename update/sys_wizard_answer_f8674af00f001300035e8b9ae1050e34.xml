@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>system</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>system</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">eead8e44c113030059a6cc8ac429c2e4</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-31 16:11:57</sys_created_on>
+        <sys_id>f8674af00f001300035e8b9ae1050e34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>system</sys_name>
+        <sys_package display_value="merit" source="x_185357_merit">750c986c0f801300035e8b9ae1050e67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="merit">750c986c0f801300035e8b9ae1050e67</sys_scope>
+        <sys_update_name>sys_wizard_answer_f8674af00f001300035e8b9ae1050e34</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-31 16:11:57</sys_updated_on>
+        <table/>
+        <target_url>x_185357_merit_system.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

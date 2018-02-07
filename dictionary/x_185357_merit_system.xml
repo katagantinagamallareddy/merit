@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="system" max_length="40" name="x_185357_merit_system" sizeclass="7" type="collection">
+        <element label="new field 2" max_length="40" name="new_field_2" type="integer"/>
+        <element label="1-02-2018" mandatory="true" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element label="requested for" mandatory="true" max_length="32" name="u_reference_2" reference="x_185357_merit_system" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="requested type" mandatory="true" max_length="40" name="u_requested_type" type="string">
+            <choice>
+                <element label="Human Resource" sequence="0" value="hr"/>
+                <element label="Facilites" sequence="1" value="fa"/>
+                <element label="Legal" sequence="2" value="legal"/>
+                <element label="Cost" sequence="3" value="Cost"/>
+            </choice>
+        </element>
+    </element>
+</database>
